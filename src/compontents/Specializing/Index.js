@@ -1,11 +1,12 @@
 import React from 'react'
+import SmallHeading from '../Hero/UI/SmallHeading';
 
 const Specializing = (props) => {
     return (
         <div className="container">
 
-            <p className="uppercase bold-500 font-16 primaryColor ls-1 text-center mtb-10">What I do</p>
-            <p>Specializing In</p>
+            <SmallHeading text="What I do" />
+            <p className="font-25 capitalize ls-1" >Specializing In</p>
             
             
              </div>
